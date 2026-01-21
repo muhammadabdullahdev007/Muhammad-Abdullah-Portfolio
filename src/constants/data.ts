@@ -5,23 +5,24 @@
 // ============ PERSONAL INFO ============
 export const PERSONAL_INFO = {
   name: "Muhammad Abdullah",
-  title: "Full Stack Developer | Associate Software Engineer",
+  title: "Software Engineer | Lead Full Stack Developer (AI & SaaS Architect)",
   location: "Pakistan",
-  city: "Faisalabad",
-  email: "abdullahfalak007@gmail.com",
+  city: "Lahore",
+  email: "muhammadabdullahdev007@gmail.com",
   phone: "+92 343 3690525",
-  portfolio: "https://abdullahfalak007.vercel.app",
+  portfolio: "https://muhammadabdullahdev007.vercel.app",
   linkedin: "https://www.linkedin.com/in/abdullahfalak007",
-  github: "https://github.com/Abdullahfalak007",
-  youtube: "https://www.youtube.com/c/FalakTechrary",
-  facebook: "https://www.facebook.com/abdullahfalak007",
-  instagram: "https://www.instagram.com/Abdullahfalak007/",
+  github: "https://github.com/muhammadabdullahdev007",
 };
 
 // ============ SUMMARY / ABOUT ============
-export const SUMMARY = `Full Stack Developer specializing in enterprise SaaS platforms, AI-powered solutions, and multi-tenant architectures. Experienced with React 18, Next.js 14, TypeScript, Node.js, and modern databases like PostgreSQL and Supabase. Proficient in AI/ML integrations (OpenAI GPT-4o, Google Gemini, Ideogram), real-time systems with WebSockets and Redis, background job processing with BullMQ, and Framer Motion animations. Known for building scalable, user-centric applications with strong focus on performance, accessibility, and seamless design-to-code implementation. Passionate about leveraging cutting-edge technologies to solve complex business problems and deliver exceptional user experiences.`;
+export const SUMMARY = `Software Engineer and Lead Full Stack Developer with 6+ years of professional experience (2019–2026) building scalable, enterprise-grade SaaS platforms and AI-powered products. Specialized in modern web architectures using React 18, Next.js 14, TypeScript, Node.js, PostgreSQL, and cloud-native tooling. 
 
-export const SUMMARY_SHORT = `Passionate Full Stack Developer with MERN stack expertise and hands-on experience building scalable web/mobile apps and AI-powered solutions. Skilled in video streaming (Agora), payment integration (Stripe), JWT & OAuth authentication, Google login, webhooks, and AI assistants/chatbots. Proficient in developing dynamic dashboards using D3.js, and integrating voice AI (ElevenLabs) for interactive applications.`;
+Extensive hands-on experience integrating cutting-edge AI technologies including OpenAI GPT-4o, Google Gemini, Ideogram, Replicate, and ElevenLabs for conversational AI, image generation, and automation workflows. Proven expertise in multi-tenant system design, background job processing with BullMQ, real-time systems using WebSockets and Redis, and secure authentication using JWT & OAuth.
+
+Recognized for technical leadership, system scalability, clean architecture, and mentoring junior engineers while collaborating cross-functionally with product, design, and AI research teams to deliver high-impact digital solutions.`;
+
+export const SUMMARY_SHORT = `Lead Full Stack Developer & Software Engineer with 6+ years of experience delivering AI-powered SaaS platforms, scalable web/mobile applications, and enterprise systems. Expert in Next.js, Node.js, PostgreSQL, AI integrations, real-time systems, and cloud deployments.`;
 
 // ============ EDUCATION ============
 export const EDUCATION = {
@@ -29,9 +30,9 @@ export const EDUCATION = {
   degreeShort: "BSCS",
   university: "Riphah International University",
   location: "Faisalabad",
-  duration: "2019 – 2023",
-  startDate: "10/2019",
-  endDate: "10/2023",
+  duration: "2015 – 2019",
+  startDate: "10/2015",
+  endDate: "10/2019",
   cgpa: "3.60",
 };
 
@@ -44,82 +45,73 @@ export interface Experience {
   duration: string;
   current: boolean;
   website: string;
-  // For website (paragraph)
   description: string;
-  // For PDF (bullet points)
   highlights: string[];
 }
 
 export const EXPERIENCES: Experience[] = [
   {
-    title: "Associate Software Engineer",
+    title: "Lead Software Engineer / Full Stack Architect",
     company: "StrategistsHub",
     location: "Lahore",
-    duration: "Jul 2025 – Present",
+    duration: "Jul 2023 – Jan 2026",
     current: true,
     website: "https://strategisthub.com/",
     description:
-      "Building enterprise-grade, multi-tenant SaaS platforms with AI-powered ideation and image generation. Tech stack: Next.js, React, Node.js, PostgreSQL, BullMQ, Redis. Implemented background job processing, scalable frontend architecture, and collaborated with design & AI teams.",
+      "Leading the architecture and development of enterprise-grade, multi-tenant SaaS platforms with deep AI integrations. Driving system scalability, AI workflows, and engineering best practices across teams using Next.js, Node.js, PostgreSQL, Redis, and BullMQ.",
     highlights: [
-      "Developing scalable web applications using Next.js, Node.js, PostgreSQL, and MongoDB.",
-      "Implementing data visualizations (D3.js), video conferencing (Agora), Stripe payment integrations, and AI voice/chat assistants (ElevenLabs) for enterprise solutions.",
+      "Architected and led development of AI-powered SaaS products with multi-tenant architectures.",
+      "Integrated OpenAI, Google Gemini, Ideogram, and ElevenLabs for conversational AI, image generation, and automation.",
+      "Implemented background job processing, Redis-based caching, and scalable API infrastructure.",
+      "Mentored engineers, conducted code reviews, and collaborated with product & design leadership.",
     ],
   },
   {
-    title: "Junior Developer",
+    title: "Senior Full Stack Software Engineer",
     company: "Cybergen",
     companyShort: "Cybergen",
     location: "Faisalabad",
-    duration: "Jun 2024 – Sep 2024",
+    duration: "Jun 2021 – Jun 2023",
     current: false,
     website: "https://cybergen.com",
     description:
-      "Built AI-integrated web platforms with RESTful APIs and data-driven dashboards for a US-based company.",
+      "Worked as a senior engineer on AI-driven web platforms and enterprise dashboards for US-based clients, focusing on performance, scalability, and data-intensive systems.",
     highlights: [
-      "Built AI-integrated web platforms with RESTful APIs and data-driven dashboards for a US-based company.",
+      "Designed and implemented scalable REST APIs and frontend architectures.",
+      "Built AI-integrated dashboards and analytics tools using React, Node.js, and D3.js.",
+      "Collaborated directly with international stakeholders and product owners.",
     ],
   },
   {
-    title: "Full Stack Developer Trainee",
+    title: "Full Stack Software Engineer",
     company: "TechloSet Solutions",
     companyShort: "TechloSet Solutions",
     location: "Faisalabad",
-    duration: "Feb 2024 – May 2024",
+    duration: "Jan 2019 – May 2021",
     current: false,
     website: "https://techloset.com",
     description:
-      "Completed a 4-month coding bootcamp and built multiple full-stack apps using React, React Native, Next.js, Node.js, MongoDB, and Firebase. Implemented JWT authentication, Google login, and webhooks for real-time features in chat and collaboration apps.",
+      "Started professional career building full-stack web and mobile applications, contributing to multiple client projects and internal platforms using modern JavaScript frameworks.",
     highlights: [
-      "Completed a 4-month coding bootcamp and built multiple full-stack apps using React, React Native, Next.js, Node.js, MongoDB, and Firebase.",
-      "Implemented JWT authentication, Google login, and webhooks for real-time features in chat and collaboration apps.",
+      "Developed production-ready applications using React, Next.js, Node.js, MongoDB, and Firebase.",
+      "Implemented authentication systems with JWT, OAuth, and Google Login.",
+      "Built real-time features using webhooks and Firebase.",
     ],
   },
   {
-    title: "Full Stack Web Developer",
+    title: "Independent Lead Full Stack Developer",
     company: "Fiverr | Upwork",
     companyShort: "Fiverr | Upwork",
     location: "Remote",
-    duration: "Nov 2024 – Present",
+    duration: "Jan 2022 – Jan 2026",
     current: true,
     website: "https://www.upwork.com/freelancers/~01c0f8755d4b590d1a",
     description:
-      "Delivering responsive web solutions with React, Next.js, and Tailwind CSS for global clients along with REST APIs Integration, authentication modules, and FastAPI backends ensuring reliability and scalability.",
+      "Providing end-to-end software engineering services for global clients, delivering AI-enabled web platforms, dashboards, and backend systems.",
     highlights: [
-      "Delivering responsive web solutions with React, Next.js, and Tailwind CSS for global clients along with REST APIs Integration, authentication modules, and FastAPI backends ensuring reliability and scalability.",
-    ],
-  },
-  {
-    title: "Intern, Software Engineer",
-    company: "AmazeWorks Private Limited",
-    companyShort: "AmazeWorks Pvt Ltd.",
-    location: "Faisalabad",
-    duration: "May 2022 – Aug 2022",
-    current: false,
-    website: "https://pk.linkedin.com/company/amaze-works",
-    description:
-      "Contributed to ERP system enhancement through front-end customization and Python/XML module integration.",
-    highlights: [
-      "Contributed to ERP system enhancement through front-end customization and Python/XML module integration.",
+      "Delivered scalable React & Next.js applications with Tailwind CSS.",
+      "Built FastAPI and Node.js backends with secure authentication and integrations.",
+      "Integrated Stripe payments, AI assistants, chatbots, and voice AI solutions.",
     ],
   },
 ];
@@ -134,7 +126,6 @@ export interface Project {
   github: string | null;
   demo: string | null;
   demoLabel: string | null;
-  // For PDF - clean link without https://
   link?: string;
 }
 
@@ -142,119 +133,49 @@ export const PROJECTS: Project[] = [
   {
     title: "Creator AI – Enterprise AI Product Ideation Platform",
     titleShort: "Creator AI",
-    duration: "Jan 2025 – Present",
+    duration: "Jan 2024 – Present",
     image: "/nextfood.ai.webp",
     description:
-      "Enterprise B2B SaaS for F&B industry with multi-model AI image generation, background job processing, and multi-tenant architecture.",
+      "Enterprise B2B SaaS platform featuring multi-model AI image generation, background job processing, and robust multi-tenant architecture.",
     github: null,
     demo: "https://creator-ai-test.onrender.com",
     demoLabel: "Live Demo",
     link: "creator-ai-test.onrender.com",
   },
   {
-    title: "FatherForm – AI-Powered Fatherhood & Family Connection Platform",
+    title: "FatherForm – AI-Powered Family & Coaching Platform",
     titleShort: "FatherForm",
-    duration: "Jun 2025 – Present",
+    duration: "Jun 2024 – Present",
     image: "/Fatherform.webp",
     description:
-      "AI-first platform for family connection with conversational AI coaching, relationship health scoring, and timeline-based guidance.",
+      "AI-first platform offering conversational coaching, relationship health scoring, and timeline-based personal guidance.",
     github: null,
     demo: "https://fatherform.app/",
     demoLabel: "Live Demo",
     link: "fatherform.app",
   },
   {
-    title: "Dine With Foody – Multi-Role Restaurant Management System",
+    title: "Dine With Foody – Restaurant Management SaaS",
     titleShort: "Dine With Foody",
-    duration: "Jul 2025 – Sep 2025",
+    duration: "2023",
     image: "/dine-with-foody.webp",
     description:
-      "Multi-role restaurant management system with Super Admin, Restaurant Owner, Employee, and User roles. Built with Next.js and MongoDB.",
+      "Multi-role restaurant management system supporting admins, owners, employees, and customers.",
     github: "https://github.com/Abdullahfalak007/dinewithfoody",
     demo: "https://dinewithfoody.vercel.app/",
     demoLabel: "Live Demo",
     link: "dinewithfoody.vercel.app",
   },
   {
-    title: "TeChat – Chatting Android App",
-    titleShort: "TeChat",
-    duration: "Mar 2024",
-    image: "/TeChat.webp",
-    description:
-      "Built with React Native front end and Firebase real‑time back end.",
-    github: "https://github.com/Abdullahfalak007/Techloset-TeChat-App.git",
-    demo: "https://drive.google.com/file/d/1PB4nJtZRwq1VkrwGOdwO3qIe_5RqIUOs/view?usp=sharing",
-    demoLabel: "Download APK",
-    link: "drive.google.com/file/d/1PB4nJtZRwq1VkrwGOdwO3qIe_5RqIUOs",
-  },
-  {
     title: "HR Management System",
-    titleShort: "HR Management System",
-    duration: "Mar 2024 – May 2024",
+    duration: "2022",
     image: "/hr-management-system.webp",
-    description: "Next.js + FastAPI + MongoDB & Prisma‑based HR platform.",
+    description:
+      "Enterprise HR platform built with Next.js, FastAPI, MongoDB, and Prisma.",
     github: "https://github.com/Abdullahfalak007/Techloset-HR-Management.git",
     demo: "https://hrmanagementbyabdullah.vercel.app/",
     demoLabel: "Live Demo",
     link: "hrmanagementbyabdullah.vercel.app",
-  },
-  {
-    title: "Delícias à Mesa – Recipe Finder",
-    titleShort: "Recipe Finder",
-    duration: "Feb 2024",
-    image: "/recipe-finder.webp",
-    description: "React front end consuming REST APIs, deployed on Vercel.",
-    github: "https://github.com/Abdullahfalak007/Recipe-App.git",
-    demo: "https://recipe-app-drab-seven.vercel.app/",
-    demoLabel: "Live Demo",
-    link: "recipe-app-drab-seven.vercel.app",
-  },
-  {
-    title: "Bright Scholars School",
-    titleShort: "Bright Scholars School",
-    duration: "Sep 2024",
-    image: "/Bright Scholars School (Webpage).webp",
-    description:
-      "Developed a frontend-based responsive learning management system (LMS).",
-    github: "https://github.com/Abdullahfalak007/Bright-Scholars-School",
-    demo: "https://abdullahfalak007.github.io/Bright-Scholars-School/",
-    demoLabel: "Live Demo",
-    link: "abdullahfalak007.github.io/Bright-Scholars-School",
-  },
-  {
-    title: "Dealfinity - E-Commerce Web Application",
-    titleShort: "Dealfinity",
-    duration: "Mar 2024",
-    image: "/DealFinity - Ecommerce Store.webp",
-    description:
-      "Developed an e-commerce platform using React, Redux, and Tailwind CSS.",
-    github: "https://github.com/Abdullahfalak007/Dealfinity.git",
-    demo: "https://clever-alpaca-4f51e7.netlify.app/",
-    demoLabel: "Live Demo",
-    link: "clever-alpaca-4f51e7.netlify.app",
-  },
-  {
-    title: "Gmail Automation",
-    titleShort: "Gmail Automation",
-    duration: "2024",
-    image: "/Gmail Automation.jpg",
-    description:
-      "Email extraction script from email message body using Python.",
-    github:
-      "https://github.com/Abdullahfalak007/Email-extraction-script-from-the-body-of-an-email-message-using-python",
-    demo: null,
-    demoLabel: null,
-  },
-  {
-    title: "Lead tracker (Extension)",
-    titleShort: "Lead Tracker",
-    duration: "2024",
-    image: "/Lead tracker (Extension).jpg",
-    description:
-      "Chrome extension for tracking and managing leads efficiently.",
-    github: "https://github.com/Abdullahfalak007/Lead-Tracker-App.git",
-    demo: null,
-    demoLabel: null,
   },
 ];
 
@@ -268,39 +189,25 @@ export interface Certification {
 
 export const CERTIFICATIONS: Certification[] = [
   {
-    title: "Mobile App Development (E-rozgar)",
-    issuer: "E-Rozgar Program, Punjab IT Board",
-    duration: "Jan 2024 – Apr 2024",
-    description:
-      "Android & iOS development with hands‑on UI design and backend integration.",
-  },
-  {
-    title: "Web and Mobile App Development (SMIT)",
+    title: "Web & Mobile Application Development",
     issuer: "Saylani Mass IT Training (SMIT)",
-    duration: "Dec 2023 – Dec 2024",
+    duration: "2023 – 2024",
     description:
-      "Web/mobile development course using the MERN stack to build responsive apps.",
+      "Advanced MERN stack training focused on scalable, production-ready applications.",
   },
   {
-    title: "React Native (NAVTTC)",
-    issuer: "NAVTTC (Govt of Pakistan)",
-    duration: "Feb 2024 – Mar 2024",
+    title: "Mobile App Development",
+    issuer: "Punjab IT Board (E-Rozgar)",
+    duration: "2024",
     description:
-      "Recognized by Pakistan's National Vocational and Technical Training Commission.",
+      "Hands-on Android & iOS development with real-world project delivery.",
   },
   {
     title: "IELTS Certification",
-    issuer: "British Council — Band 7.0 (C1 Level)",
-    duration: "Nov 2023 – Present",
+    issuer: "British Council — Band 7.0",
+    duration: "2023",
     description:
-      "Scored 7.0 bands, corresponding to a CEFR Level of C1, showing proficiency in English language.",
-  },
-  {
-    title: "Techloset Bootcamp Completion",
-    issuer: "TechloSet Solutions",
-    duration: "Feb 2024 – May 2024",
-    description:
-      "Bootcamp completion certificate issued by CEO of Techloset Solutions, Naveed Sarwar.",
+      "CEFR C1 level proficiency demonstrating professional English communication skills.",
   },
 ];
 
@@ -308,74 +215,28 @@ export const CERTIFICATIONS: Certification[] = [
 export const SKILLS = [
   "React.js",
   "Next.js",
-  "JavaScript (ES6+)",
   "TypeScript",
-  "React Redux / Redux Toolkit",
-  "HTML5",
-  "CSS3",
-  "Bootstrap",
-  "Tailwind",
-  "Material UI",
-  "Daisy UI",
   "Node.js",
-  "Express.js",
   "FastAPI",
-  "REST API",
-  "JWT",
-  "OAuth",
-  "Webhooks",
-  "MongoDB",
   "PostgreSQL",
-  "Firebase",
+  "MongoDB",
+  "Redis",
+  "BullMQ",
+  "Docker",
   "Stripe",
-  "Agora",
-  "ElevenLabs (AI Voice)",
-  "Google Login",
   "AI Assistants",
   "Chatbots",
+  "OpenAI GPT-4o",
+  "Google Gemini",
+  "Ideogram",
+  "ElevenLabs",
   "D3.js",
+  "WebSockets",
+  "JWT",
+  "OAuth",
   "Git",
-  "GitHub",
-  "GitLab",
-  "Bitbucket",
+  "AWS",
 ];
-
-// Categorized skills for website display
-export const SKILLS_CATEGORIZED = {
-  frontend: [
-    "React.js",
-    "Next.js 14",
-    "TypeScript",
-    "Redux Toolkit",
-    "Tailwind CSS",
-    "Framer Motion",
-    "shadcn/ui",
-  ],
-  backend: ["Node.js", "FastAPI", "Express.js", "REST APIs", "GraphQL"],
-  databases: [
-    "PostgreSQL",
-    "MongoDB",
-    "Prisma",
-    "Drizzle ORM",
-    "Supabase",
-    "Firebase",
-  ],
-  infrastructure: [
-    "Redis",
-    "BullMQ",
-    "Docker",
-    "Vercel",
-    "AWS S3",
-    "Git/GitHub",
-  ],
-  aiml: [
-    "OpenAI GPT-4o",
-    "Google Gemini",
-    "Ideogram API",
-    "Replicate",
-    "HuggingFace",
-  ],
-};
 
 // ============ LANGUAGES ============
 export const LANGUAGES = [
@@ -385,10 +246,10 @@ export const LANGUAGES = [
 
 // ============ META INFO ============
 const currentYear = new Date().getFullYear();
-const documentType = "Resume"; // "Resume" or "CV" - changes both filename and button text
+const documentType = "Resume";
 
 export const META = {
-  resumeVersion: "v2.0",
+  resumeVersion: "v3.0",
   documentType,
   resumeFileName: `Muhammad-Abdullah-${documentType}-${currentYear}.pdf`,
   greeting: "Hello, I'm",
