@@ -2,7 +2,7 @@
 // HERO CONSTANTS - Re-exports from unified data
 // ============================================================
 
-import { Github, Linkedin, Youtube, Facebook, Instagram } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 import { PERSONAL_INFO, META } from "./data";
 
 export const HERO_PROFILE_IMAGE = META.profileImage;
@@ -17,21 +17,6 @@ export const HERO_SOCIAL_LINKS = [
     icon: Github,
     url: PERSONAL_INFO.github,
     label: "GitHub",
-  },
-  {
-    icon: Youtube,
-    url: PERSONAL_INFO.youtube,
-    label: "YouTube",
-  },
-  {
-    icon: Facebook,
-    url: PERSONAL_INFO.facebook,
-    label: "Facebook",
-  },
-  {
-    icon: Instagram,
-    url: PERSONAL_INFO.instagram,
-    label: "Instagram",
   },
 ];
 
