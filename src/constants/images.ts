@@ -1,6 +1,6 @@
-// ============================================================
+// ===========================================================
 // IMAGES - Website-only image imports (can't be used in PDF)
-// ============================================================
+// ===========================================================
 
 // Company logos for Experience section
 import strategistsHubLogo from "../../public/assets/strategistshub-logo.jpg";
