@@ -404,15 +404,7 @@ const ResumePDF = () => (
               <WebIcon />
             </View>
             <Link src={PERSONAL_INFO.portfolio} style={styles.contactLink}>
-              abdullahfalak007.vercel.app
-            </Link>
-          </View>
-          <View style={styles.contactItem}>
-            <View style={styles.contactIcon}>
-              <LinkedInIcon />
-            </View>
-            <Link src={PERSONAL_INFO.linkedin} style={styles.contactLink}>
-              linkedin.com/in/abdullahfalak007
+              {PERSONAL_INFO.portfolio.replace(/^https?:\/\//, "")}
             </Link>
           </View>
           <View style={styles.contactItem}>
@@ -420,7 +412,7 @@ const ResumePDF = () => (
               <GitHubIcon />
             </View>
             <Link src={PERSONAL_INFO.github} style={styles.contactLink}>
-              github.com/Abdullahfalak007
+              {PERSONAL_INFO.github.replace(/^https?:\/\//, "")}
             </Link>
           </View>
         </View>

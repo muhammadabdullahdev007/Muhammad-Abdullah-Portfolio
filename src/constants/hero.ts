@@ -9,11 +9,6 @@ export const HERO_PROFILE_IMAGE = META.profileImage;
 
 export const HERO_SOCIAL_LINKS = [
   {
-    icon: Linkedin,
-    url: PERSONAL_INFO.linkedin,
-    label: "LinkedIn",
-  },
-  {
     icon: Github,
     url: PERSONAL_INFO.github,
     label: "GitHub",

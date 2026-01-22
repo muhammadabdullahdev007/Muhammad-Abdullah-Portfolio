@@ -11,7 +11,6 @@ export const PERSONAL_INFO = {
   email: "muhammadabdullahdev007@gmail.com",
   phone: "+92 343 3690525",
   portfolio: "https://muhammadabdullahdev007.vercel.app",
-  linkedin: "https://www.linkedin.com/in/abdullahfalak007",
   github: "https://github.com/muhammadabdullahdev007",
 };
 
@@ -53,7 +52,7 @@ export interface Experience {
 
 export const EXPERIENCES: Experience[] = [
   {
-    title: "Lead Software Engineer / Full Stack Architect",
+    title: "Lead Software Engineer",
     company: "StrategistsHub",
     location: "Lahore",
     duration: "Jul 2023 – Jan 2026",
