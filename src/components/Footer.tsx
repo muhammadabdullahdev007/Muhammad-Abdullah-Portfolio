@@ -1,5 +1,7 @@
 "use client";
 
+import { PERSONAL_INFO } from "@/constants/data";
+
 const Footer = () => {
   const navLinks = [
     { href: "#about", label: "About" },
@@ -37,7 +39,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="text-center">
           <p className="text-muted-foreground">
-            Copyright © {new Date().getFullYear()} Muhammad Abdullah. All Rights
+            Copyright © {new Date().getFullYear()} {PERSONAL_INFO.name}. All Rights
             Reserved.
           </p>
         </div>

@@ -12,6 +12,7 @@ export const PERSONAL_INFO = {
   phone: "+92 343 3690525",
   portfolio: "https://muhammadabdullahdev007.vercel.app",
   github: "https://github.com/muhammadabdullahdev007",
+  linkedin: "https://www.linkedin.com/in/abdullahfalak007",
 };
 
 // ============ SUMMARY / ABOUT ============
@@ -256,8 +257,13 @@ const documentType = "Resume";
 export const META = {
   resumeVersion: "v3.1",
   documentType,
-  resumeFileName: `Muhammad-Abdullah-${documentType}-${currentYear}.pdf`,
+  resumeFileName: `${PERSONAL_INFO.name.replace(/\s+/g, "-")}-${documentType}-${currentYear}.pdf`,
   greeting: "Hello, I'm",
   profileImage: "/placeholder.png",
   aboutImage: "/about-pic.jpg",
+  // Site meta (kept here to avoid hardcoding across app)
+  siteTitle: `${PERSONAL_INFO.name} - Portfolio`,
+  siteDescription:
+    "Full Stack Developer specializing in React, Next.js, TypeScript & AI-powered solutions.",
+  siteUrl: PERSONAL_INFO.portfolio,
 };

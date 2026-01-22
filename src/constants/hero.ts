@@ -15,7 +15,7 @@ export const HERO_SOCIAL_LINKS = [
   },
 ];
 
-export const HERO_RESUME_PATH = "./assets/Muhammad-Abdullah-Resume-2025";
+export const HERO_RESUME_PATH = `./assets/${META.resumeFileName}`;
 
 export const HERO_NAME = PERSONAL_INFO.name;
 export const HERO_TITLE = PERSONAL_INFO.title;

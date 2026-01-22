@@ -59,7 +59,7 @@ const HeroSection = () => {
               >
                 <Image
                   src={HERO_PROFILE_IMAGE}
-                  alt="Muhammad Abdullah profile picture"
+                  alt={`${HERO_NAME} profile picture`}
                   width={384}
                   height={384}
                   className="w-full h-full object-cover"

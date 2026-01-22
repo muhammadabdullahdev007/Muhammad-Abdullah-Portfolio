@@ -18,7 +18,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "abdullahfalak007.vercel.app",
+        hostname: process.env.NEXT_PUBLIC_SITE_URL || "example.com",
       },
     ],
     // Use modern formats for better compression

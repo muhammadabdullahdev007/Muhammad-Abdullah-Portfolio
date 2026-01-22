@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Providers } from "@/components/Providers";
+import { PERSONAL_INFO, META } from "@/constants/data";
 
 // Optimize font loading with display swap and preload
 const inter = Inter({
@@ -21,9 +22,8 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Muhammad Abdullah - Portfolio",
-  description:
-    "Full Stack Developer specializing in React, Next.js, TypeScript & AI-powered solutions. Building scalable web applications with modern technologies.",
+  title: META.siteTitle,
+  description: META.siteDescription,
   keywords: [
     "Full Stack Developer",
     "React Developer",
@@ -31,11 +31,11 @@ export const metadata: Metadata = {
     "TypeScript",
     "Software Engineer",
     "Web Developer",
-    "Muhammad Abdullah",
+    PERSONAL_INFO.name,
     "Portfolio",
   ],
-  authors: [{ name: "Muhammad Abdullah" }],
-  creator: "Muhammad Abdullah",
+  authors: [{ name: PERSONAL_INFO.name }],
+  creator: PERSONAL_INFO.name,
   icons: {
     icon: "/favicon.ico",
     apple: "/apple-icon.png",
@@ -44,17 +44,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://abdullahfalak007.vercel.app",
-    title: "Muhammad Abdullah - Full Stack Developer Portfolio",
-    description:
-      "Full Stack Developer specializing in React, Next.js, TypeScript & AI-powered solutions.",
-    siteName: "Muhammad Abdullah Portfolio",
+    url: META.siteUrl,
+    title: META.siteTitle,
+    description: META.siteDescription,
+    siteName: `${PERSONAL_INFO.name} Portfolio`,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Muhammad Abdullah - Full Stack Developer",
-    description:
-      "Full Stack Developer specializing in React, Next.js, TypeScript & AI-powered solutions.",
+    title: `${PERSONAL_INFO.name} - Full Stack Developer`,
+    description: META.siteDescription,
   },
   robots: {
     index: true,

@@ -8,6 +8,7 @@ import { AnimatedSection } from "@/components/AnimatedSection";
 import { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "sonner";
+import { PERSONAL_INFO } from "@/constants/data";
 
 const ContactSection = () => {
   const formRef = useRef<HTMLFormElement>(null);
@@ -65,20 +66,22 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "abdullahfalak007@gmail.com",
-      href: "mailto:abdullahfalak007@gmail.com",
+      value: PERSONAL_INFO.email,
+      href: `mailto:${PERSONAL_INFO.email}`,
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+92 343 3690525",
-      href: "tel:+923433690525",
+      value: PERSONAL_INFO.phone,
+      href: `tel:${PERSONAL_INFO.phone.replace(/\s+/g, "")}`,
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Lahore, Pakistan",
-      href: "https://maps.google.com/?q=Lahore,Pakistan",
+      value: `${PERSONAL_INFO.city}, ${PERSONAL_INFO.location}`,
+      href: `https://maps.google.com/?q=${encodeURIComponent(
+        `${PERSONAL_INFO.city},${PERSONAL_INFO.location}`
+      )}`,
     },
   ];
 
@@ -86,19 +89,18 @@ const ContactSection = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/abdullahfalak007",
+      href: PERSONAL_INFO.linkedin,
       color:
         "text-blue-600 hover:text-blue-700 dark:text-blue-600 dark:hover:text-blue-700",
     },
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/Abdullahfalak007",
+      href: PERSONAL_INFO.github,
       color:
         "text-blue-600 hover:text-blue-700 dark:text-blue-600 dark:hover:text-blue-700",
     },
   ];
-
   return (
     <section
       id="contact"
@@ -214,7 +216,7 @@ const ContactSection = () => {
                   <input
                     type="hidden"
                     name="reply_to"
-                    value="abdullahfalak007@gmail.com"
+                    value={PERSONAL_INFO.email}
                   />
                   {/* hidden field to tell your EmailJS template the current date */}
                   <input type="hidden" name="date" value={currentDate} />

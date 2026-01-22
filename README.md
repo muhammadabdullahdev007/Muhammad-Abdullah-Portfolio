@@ -1,15 +1,14 @@
-# Muhammad Abdullah - Portfolio
+# Portfolio
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-success?style=for-the-badge)](https://abdullahfalak007.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/abdullahfalak007)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/Abdullahfalak007)
+<!-- Personal links and contact details have been removed from this README.
+     They are centralized in `src/constants/data.ts` under `PERSONAL_INFO`. -->
 
 > **Lead Full Stack Developer | Software Engineer**  
 > Lead Full Stack Developer with 6+ years of professional experience (2019-2026) building scalable SaaS platforms, AI-powered solutions, and enterprise systems.
 
 ## 🚀 Live Demo
 
-Visit my portfolio: **[abdullahfalak007.vercel.app](https://abdullahfalak007.vercel.app/)**
+Visit the live portfolio via the site URL stored in `src/constants/data.ts` (`PERSONAL_INFO.portfolio`).
 
 ## 👨‍💻 About Me
 
@@ -248,7 +247,7 @@ Multi-role restaurant management system with Super Admin, Restaurant Owner, Empl
 
 - **Tech Stack:** Next.js, MongoDB
 - **Duration:** Jul 2025 - Sep 2025
-- [GitHub](https://github.com/Abdullahfalak007/dinewithfoody)
+- GitHub (link removed; see `src/constants/data.ts`)
 
 ### 💼 [HR Management System](https://hrmanagementbyabdullah.vercel.app/)
 
@@ -256,7 +255,7 @@ Comprehensive HR platform with employee management and analytics.
 
 - **Tech Stack:** Next.js, FastAPI, MongoDB, Prisma
 - **Duration:** Mar 2024 - May 2024
-- [GitHub](https://github.com/Abdullahfalak007/Techloset-HR-Management.git)
+- GitHub (link removed; see `src/constants/data.ts`)
 
 ### 💬 [TeChat - Android Chatting App](https://drive.google.com/file/d/1PB4nJtZRwq1VkrwGOdwO3qIe_5RqIUOs/view?usp=sharing)
 
@@ -264,7 +263,7 @@ Real-time chat application for Android devices.
 
 - **Tech Stack:** React Native, Firebase
 - **Duration:** Mar 2024
-- [GitHub](https://github.com/Abdullahfalak007/Techloset-TeChat-App.git)
+- GitHub (link removed; see `src/constants/data.ts`)
 
 ### 🍳 [Delícias à Mesa - Recipe Finder](https://recipe-app-drab-seven.vercel.app/)
 
@@ -272,7 +271,7 @@ Recipe discovery application with REST API integration.
 
 - **Tech Stack:** React, REST APIs
 - **Duration:** Feb 2024
-- [GitHub](https://github.com/Abdullahfalak007/Recipe-App.git)
+- GitHub (link removed; see `src/constants/data.ts`)
 
 ## 🎓 Education
 
@@ -297,7 +296,7 @@ Riphah International University, Faisalabad (2019 - 2023)
 
 ```bash
 # Clone the repository
-git clone https://github.com/Abdullahfalak007/muhammad-abdu-showcase.git
+# git clone <repository-url> (removed personal username)
 
 # Navigate to project directory
 cd muhammad-abdu-showcase
@@ -384,11 +383,7 @@ npm run dev
 
 ## 📫 Contact
 
-- **Email:** abdullahfalak007@gmail.com
-- **Phone:** +92 343 3690525
-- **Portfolio:** [abdullahfalak007.vercel.app](https://abdullahfalak007.vercel.app/)
-- **LinkedIn:** [linkedin.com/in/abdullahfalak007](https://linkedin.com/in/abdullahfalak007)
-- **GitHub:** [github.com/Abdullahfalak007](https://github.com/Abdullahfalak007)
+Contact details (email, phone, portfolio, social links) have been centralized in `src/constants/data.ts` under the `PERSONAL_INFO` object.
 
 ## 📄 License
 
@@ -404,7 +399,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 <div align="center">
-  <p>Built with ❤️ by Muhammad Abdullah</p>
+  <p>Built with ❤️</p>
   <p>⭐ Star this repo if you like it!</p>
   <p>🤖 Try the AI assistant on the live site!</p>
 </div>

@@ -24,6 +24,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { PERSONAL_INFO } from "@/constants/data";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -124,7 +125,7 @@ const Navigation = () => {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             >
-              Muhammad Abdullah
+              {PERSONAL_INFO.name}
             </motion.button>
 
             {/* Desktop Navigation Menu - Centered (only shown if navMode is navbar) */}
