@@ -16,13 +16,15 @@ export const PERSONAL_INFO = {
 };
 
 // ============ SUMMARY / ABOUT ============
-export const SUMMARY = `Software Engineer and Lead Full Stack Developer with 6+ years of professional experience (2019–2026) building scalable, enterprise-grade SaaS platforms and AI-powered products. Specialized in modern web architectures using React 18, Next.js 14, TypeScript, Node.js, PostgreSQL, and cloud-native tooling. 
+export const SUMMARY = `Software Engineer and Lead Full Stack Developer with over 6 years of hands-on professional experience (2019 – Present) designing, building, and scaling production-grade SaaS platforms and AI-powered digital products.
 
-Extensive hands-on experience integrating cutting-edge AI technologies including OpenAI GPT-4o, Google Gemini, Ideogram, Replicate, and ElevenLabs for conversational AI, image generation, and automation workflows. Proven expertise in multi-tenant system design, background job processing with BullMQ, real-time systems using WebSockets and Redis, and secure authentication using JWT & OAuth.
+Strong background in full-stack engineering using React 18, Next.js 14, TypeScript, Node.js, PostgreSQL, and cloud-native architectures. Extensive experience designing modular frontend systems, scalable backend services, and secure APIs used by real-world users across multiple domains.
 
-Recognized for technical leadership, system scalability, clean architecture, and mentoring junior engineers while collaborating cross-functionally with product, design, and AI research teams to deliver high-impact digital solutions.`;
+Specialized in AI-driven product development with deep, production-level integrations of OpenAI GPT-4o, Google Gemini, Ideogram, Replicate, and ElevenLabs for conversational AI, generative image pipelines, and intelligent automation. Proven expertise in multi-tenant SaaS architecture, background job processing with BullMQ, Redis-based caching, and real-time systems using WebSockets.
 
-export const SUMMARY_SHORT = `Lead Full Stack Developer & Software Engineer with 6+ years of experience delivering AI-powered SaaS platforms, scalable web/mobile applications, and enterprise systems. Expert in Next.js, Node.js, PostgreSQL, AI integrations, real-time systems, and cloud deployments.`;
+Known for technical leadership, system ownership, clean architecture, and mentoring developers while collaborating closely with product managers, designers, and AI teams to deliver reliable, scalable, and business-aligned solutions.`;
+
+export const SUMMARY_SHORT = `Lead Full Stack Developer & Software Engineer with 6+ years of experience delivering scalable SaaS platforms and AI-powered products using Next.js, Node.js, PostgreSQL, and modern AI integrations.`;
 
 // ============ EDUCATION ============
 export const EDUCATION = {
@@ -58,12 +60,13 @@ export const EXPERIENCES: Experience[] = [
     current: true,
     website: "https://strategisthub.com/",
     description:
-      "Leading the architecture and development of enterprise-grade, multi-tenant SaaS platforms with deep AI integrations. Driving system scalability, AI workflows, and engineering best practices across teams using Next.js, Node.js, PostgreSQL, Redis, and BullMQ.",
+      "Leading end-to-end architecture and development of enterprise-grade, multi-tenant SaaS platforms with AI-first capabilities. Responsible for technical decision-making, system scalability, AI workflow design, and maintaining engineering standards across teams.",
     highlights: [
-      "Architected and led development of AI-powered SaaS products with multi-tenant architectures.",
-      "Integrated OpenAI, Google Gemini, Ideogram, and ElevenLabs for conversational AI, image generation, and automation.",
-      "Implemented background job processing, Redis-based caching, and scalable API infrastructure.",
-      "Mentored engineers, conducted code reviews, and collaborated with product & design leadership.",
+      "Owned system architecture for large-scale SaaS products serving multiple tenants and organizations.",
+      "Designed and integrated AI workflows using OpenAI GPT-4o, Google Gemini, Ideogram, and ElevenLabs.",
+      "Implemented background processing pipelines using BullMQ and Redis for high-throughput workloads.",
+      "Led frontend architecture with Next.js, performance optimization, and design-system consistency.",
+      "Mentored developers, reviewed code, and collaborated with product, design, and AI research teams.",
     ],
   },
   {
@@ -75,11 +78,12 @@ export const EXPERIENCES: Experience[] = [
     current: false,
     website: "https://cybergen.com",
     description:
-      "Worked as a senior engineer on AI-driven web platforms and enterprise dashboards for US-based clients, focusing on performance, scalability, and data-intensive systems.",
+      "Worked as a senior contributor on data-intensive and AI-enabled web platforms for international clients, focusing on performance, maintainability, and scalable system design.",
     highlights: [
-      "Designed and implemented scalable REST APIs and frontend architectures.",
-      "Built AI-integrated dashboards and analytics tools using React, Node.js, and D3.js.",
-      "Collaborated directly with international stakeholders and product owners.",
+      "Designed and developed scalable REST APIs and frontend systems used in production environments.",
+      "Built analytics dashboards and data visualizations using React, Node.js, and D3.js.",
+      "Integrated AI-powered features into business workflows and reporting tools.",
+      "Collaborated directly with US-based stakeholders and translated business requirements into technical solutions.",
     ],
   },
   {
@@ -91,11 +95,12 @@ export const EXPERIENCES: Experience[] = [
     current: false,
     website: "https://techloset.com",
     description:
-      "Started professional career building full-stack web and mobile applications, contributing to multiple client projects and internal platforms using modern JavaScript frameworks.",
+      "Started professional software engineering career working on full-stack web and mobile applications, gaining strong foundations in modern JavaScript frameworks and backend development.",
     highlights: [
-      "Developed production-ready applications using React, Next.js, Node.js, MongoDB, and Firebase.",
-      "Implemented authentication systems with JWT, OAuth, and Google Login.",
-      "Built real-time features using webhooks and Firebase.",
+      "Developed and deployed full-stack applications using React, Next.js, Node.js, MongoDB, and Firebase.",
+      "Implemented authentication and authorization using JWT, OAuth, and Google Login.",
+      "Built real-time features using webhooks, Firebase, and event-driven architectures.",
+      "Worked closely with senior engineers to follow clean code and scalable design practices.",
     ],
   },
   {
@@ -107,11 +112,12 @@ export const EXPERIENCES: Experience[] = [
     current: true,
     website: "https://www.upwork.com/freelancers/~01c0f8755d4b590d1a",
     description:
-      "Providing end-to-end software engineering services for global clients, delivering AI-enabled web platforms, dashboards, and backend systems.",
+      "Providing full-cycle software engineering services for global clients, delivering production-ready web applications, SaaS platforms, and AI-integrated systems.",
     highlights: [
-      "Delivered scalable React & Next.js applications with Tailwind CSS.",
-      "Built FastAPI and Node.js backends with secure authentication and integrations.",
-      "Integrated Stripe payments, AI assistants, chatbots, and voice AI solutions.",
+      "Delivered scalable React and Next.js applications with modern UI/UX and performance optimization.",
+      "Built secure and reliable backends using Node.js and FastAPI.",
+      "Integrated Stripe payments, authentication systems, AI assistants, chatbots, and voice AI solutions.",
+      "Managed projects independently, from requirements gathering to deployment and post-launch support.",
     ],
   },
 ];
@@ -136,7 +142,7 @@ export const PROJECTS: Project[] = [
     duration: "Jan 2024 – Present",
     image: "/nextfood.ai.webp",
     description:
-      "Enterprise B2B SaaS platform featuring multi-model AI image generation, background job processing, and robust multi-tenant architecture.",
+      "Enterprise B2B SaaS platform featuring multi-model AI image generation, background job processing, and scalable multi-tenant architecture.",
     github: null,
     demo: "https://creator-ai-test.onrender.com",
     demoLabel: "Live Demo",
@@ -148,7 +154,7 @@ export const PROJECTS: Project[] = [
     duration: "Jun 2024 – Present",
     image: "/Fatherform.webp",
     description:
-      "AI-first platform offering conversational coaching, relationship health scoring, and timeline-based personal guidance.",
+      "AI-first platform providing conversational coaching, relationship health scoring, and timeline-based guidance using LLMs.",
     github: null,
     demo: "https://fatherform.app/",
     demoLabel: "Live Demo",
@@ -193,21 +199,21 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "Saylani Mass IT Training (SMIT)",
     duration: "2023 – 2024",
     description:
-      "Advanced MERN stack training focused on scalable, production-ready applications.",
+      "Advanced MERN stack training with focus on scalable, production-ready applications.",
   },
   {
     title: "Mobile App Development",
     issuer: "Punjab IT Board (E-Rozgar)",
     duration: "2024",
     description:
-      "Hands-on Android & iOS development with real-world project delivery.",
+      "Hands-on Android and iOS development with real-world project delivery.",
   },
   {
     title: "IELTS Certification",
     issuer: "British Council — Band 7.0",
     duration: "2023",
     description:
-      "CEFR C1 level proficiency demonstrating professional English communication skills.",
+      "CEFR C1 level English proficiency demonstrating professional communication skills.",
   },
 ];
 
@@ -249,7 +255,7 @@ const currentYear = new Date().getFullYear();
 const documentType = "Resume";
 
 export const META = {
-  resumeVersion: "v3.0",
+  resumeVersion: "v3.1",
   documentType,
   resumeFileName: `Muhammad-Abdullah-${documentType}-${currentYear}.pdf`,
   greeting: "Hello, I'm",

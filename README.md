@@ -4,8 +4,8 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/abdullahfalak007)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/Abdullahfalak007)
 
-> **Full Stack Developer | Associate Software Engineer**  
-> Passionate Full Stack Developer with MERN stack expertise and hands-on experience building scalable web/mobile apps and AI-powered solutions.
+> **Lead Full Stack Developer | Software Engineer**  
+> Lead Full Stack Developer with 6+ years of professional experience (2019-2026) building scalable SaaS platforms, AI-powered solutions, and enterprise systems.
 
 ## 🚀 Live Demo
 
@@ -13,14 +13,14 @@ Visit my portfolio: **[abdullahfalak007.vercel.app](https://abdullahfalak007.ver
 
 ## 👨‍💻 About Me
 
-I'm a Full Stack Developer specializing in building exceptional digital experiences. Currently working as an Associate Software Engineer at StrategistsHub, where I develop scalable web applications with cutting-edge technologies.
+I'm a Lead Full Stack Developer specializing in building exceptional digital experiences. With 6+ years of professional experience, I currently work as Lead Software Engineer at StrategistsHub, architecting enterprise-grade SaaS platforms and developing scalable web applications with cutting-edge technologies.
 
 ### 💼 Current Role
 
-- **Associate Software Engineer** at StrategistsHub (Jul 2025 - Present)
-- Developing enterprise solutions with Next.js, Node.js, PostgreSQL, and MongoDB
-- Implementing data visualizations (D3.js), video conferencing (Agora), Stripe payment integrations
-- Building AI voice/chat assistants using ElevenLabs and Groq for interactive applications
+- **Lead Software Engineer** at StrategistsHub (Jul 2023 - Present)
+- Leading end-to-end architecture and development of enterprise-grade, multi-tenant SaaS platforms
+- Designing and implementing AI workflows using GPT-4o, Google Gemini, Ideogram, and ElevenLabs
+- Implementing background job processing (BullMQ), real-time systems (WebSockets), Redis caching, and multi-tenant architecture
 
 ## 🛠️ Tech Stack
 
@@ -128,11 +128,11 @@ If using ElevenLabs, configure your agent with:
 You are Abdullah Falak's AI assistant - a friendly, conversational helper who represents him professionally.
 
 Key information:
-- Full-stack developer with 2+ years experience
-- Specializes in MERN stack (MongoDB, Express, React, Node.js)
-- Currently at StrategistsHub as Associate Software Engineer
-- Expert in Next.js, React, AI integration, video conferencing (Agora), payments (Stripe)
-- Services: Full-stack web development, AI integration, video conferencing, payment gateways, mobile apps
+- Lead Full Stack Developer with 6+ years of professional experience (2019-2026)
+- Specializes in MERN stack (MongoDB, Express, React, Node.js) and modern web architectures
+- Currently Lead Software Engineer at StrategistsHub, architecting enterprise SaaS platforms
+- Expert in Next.js, React, Node.js, TypeScript, AI integration (GPT-4o, Gemini, ElevenLabs), BullMQ, Redis
+- Services: Full-stack web development, SaaS platforms, AI integration, background job processing, multi-tenant systems
 - Contact: Upwork, Fiverr, portfolio contact form, LinkedIn
 
 Keep responses conversational, friendly, and concise (2-4 sentences).

@@ -138,14 +138,14 @@ const AboutSection = () => {
                       {ABOUT_CARDS[0].title}
                     </h3>
                     <div className="text-muted-foreground grid grid-cols-2 gap-y-2 text-left">
-                      <span>{ABOUT_CARDS[0].details[0].label}</span>
-                      <span className="font-medium text-primary text-right">
-                        {ABOUT_CARDS[0].details[0].value}
-                      </span>
-                      <span>{ABOUT_CARDS[0].details[1].label}</span>
-                      <span className="font-medium text-primary text-right">
-                        {ABOUT_CARDS[0].details[1].value}
-                      </span>
+                      {ABOUT_CARDS[0].details.map((detail, idx) => (
+                        <div key={idx} className="contents">
+                          <span>{detail.label}</span>
+                          <span className="font-medium text-primary text-right">
+                            {detail.value}
+                          </span>
+                        </div>
+                      ))}
                     </div>
                   </CardContent>
                 </Card>

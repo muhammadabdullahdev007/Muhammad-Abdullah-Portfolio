@@ -10,7 +10,7 @@ export const ABOUT_PROFILE_IMAGE = META.aboutImage;
 export const ABOUT_FLOATING_STATS = [
   {
     icon: Code2,
-    label: "2+ Years",
+    label: "6+ Years",
     sublabel: "Experience",
     className:
       "absolute -top-6 -right-6 bg-gradient-primary rounded-xl p-4 shadow-glow",
@@ -44,8 +44,9 @@ export const ABOUT_CARDS = [
     icon: Briefcase,
     title: "Experience",
     details: [
-      { label: "Frontend Development", value: "2+ Years" },
-      { label: "MERN Stack", value: "1+ Year" },
+      { label: "Full Stack Development", value: "6+ Years" },
+      { label: "MERN Stack", value: "6+ Years" },
+      { label: "SaaS & AI Integration", value: "3+ Years" },
     ],
   },
   {
