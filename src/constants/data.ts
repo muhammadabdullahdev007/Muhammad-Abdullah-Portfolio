@@ -184,7 +184,7 @@ export const PROJECTS: Project[] = [
     link: "hrmanagementbyabdullah.vercel.app",
   },
   {
-    title: "CyberGen.ai – AI-Driven Data & Enterprise Analytics Platform",
+    title: "CyberGen.ai – AI-Driven Enterprise Data & Analytics Platform",
     titleShort: "CyberGen.ai",
     duration: "Jun 2021 – Jun 2023",
     image: "/cybergen-ai.png",
@@ -196,7 +196,7 @@ export const PROJECTS: Project[] = [
     link: "cybergen.ai",
   },
   {
-    title: "AI CV Analyzer – Intelligent Resume Screening & Ranking Platform",
+    title: "AI CV Analyzer – AI-Driven Talent Intelligence & Ranking Platform",
     titleShort: "AI CV Analyzer",
     duration: "2023",
     image: "/ai-cv-analyzer.png",

@@ -24,10 +24,13 @@ So yeah, he's seen different types of projects and knows how to adapt!
 
 ## EDUCATION & CREDENTIALS
 
-- Bachelor's in Computer Science from Riphah International University
-- Graduated with a solid 3.60 CGPA
-- IELTS 7.0 bands - so communication is definitely not an issue!
-- Multiple certifications in mobile app development, React Native, and full-stack development
+- Bachelor of Computer Science from Riphah International University, Faisalabad (2015 – 2019)
+- CGPA: 3.60
+- **Mobile App Development (E-rozgar)**: E-Rozgar Program, Punjab IT Board (Jan 30, 2021 – Apr 12, 2021)
+- **Web and Mobile App Development (SMIT)**: Saylani Mass IT Training (Dec 2019 – Dec 2020)
+- **React Native (NAVTTC)**: NAVTTC (Govt of Pakistan) (Feb 26, 2021 – Mar 26, 2021)
+- **IELTS Certification**: Band 7.0 (C1 Level) - British Council (Nov 2023 – Present)
+- **Techloset Bootcamp Completion**: TechloSet Solutions (Jan 03, 2019 - April 14, 2019)
 
 ## WHAT CAN HE BUILD FOR YOU?
 
@@ -50,9 +53,12 @@ This is where Abdullah really shines:
 Need a mobile app? Abdullah builds cross-platform apps with React Native that work on both iOS and Android.
 
 ### Recent Portfolio Highlights (6+ Years of Work)
-- **Creator AI** – Enterprise B2B SaaS platform with multi-model AI image generation, BullMQ background job processing, Redis caching, and scalable multi-tenant architecture
-- **FatherForm** – AI-powered family connection platform with LLM-powered conversational coaching, relationship health scoring, and timeline-based guidance
-- **Dine With Foody** – Multi-role restaurant management system with sophisticated role-based access control, inventory management, and analytics
+- **Creator AI** (Jan 2024 – Present) – Enterprise B2B SaaS platform with multi-model AI image generation, BullMQ background job processing, Redis caching, and scalable multi-tenant architecture
+- **FatherForm** (Jun 2024 – Present) – AI-powered family connection platform with LLM-powered conversational coaching, relationship health scoring, and timeline-based guidance
+- **CyberGen.ai** (Jun 2021 – Jun 2023) – Enterprise AI-enabled platform focused on data analytics, intelligent reporting, and digital transformation with scalable React dashboards and AI-assisted workflows
+- **AI CV Analyzer** (2023) – AI-powered resume analysis and screening platform with intelligent CV parsing, similarity scoring, knowledge-base enrichment, and RAG-based reasoning
+- **Dine With Foody** (2023) – Multi-role restaurant management system with sophisticated role-based access control, inventory management, and analytics
+- **HR Management System** (2022) – Enterprise HR platform built with Next.js, FastAPI, MongoDB, and Prisma
 - **Enterprise SaaS Platforms at StrategistsHub** – Large-scale multi-tenant systems with AI workflows, real-time features, and production reliability
 - **Multiple Data-Intensive Platforms** – Custom solutions combining React/Next.js frontends with Node.js/FastAPI backends, integrated with cutting-edge AI models
 - **Full-Stack Applications Across Domains** – Experience building for startups, established tech firms, and international clients across diverse industries

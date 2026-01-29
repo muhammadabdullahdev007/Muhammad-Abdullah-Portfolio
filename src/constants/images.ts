@@ -24,27 +24,27 @@ export const COMPANY_LOGOS: Record<string, any> = {
   "AmazeWorks Private Limited": amazeworksLogo,
 };
 
-// Certificate images for carousel
+// Certificate images for carousel (aligned with data.ts CERTIFICATIONS order)
 export const CERTIFICATE_IMAGES = [
   {
-    image: bootcampCert,
-    title: "Bootcamp Completion Certificate",
-    description: "Techloset Solutions - Full Stack Development Bootcamp",
-  },
-  {
-    image: reactNativeCert,
-    title: "React Native Certificate",
-    description: "NAVTTC - React Native Development Certification",
-  },
-  {
     image: mobileCert,
-    title: "Mobile App Development Certificate",
-    description: "E-rozgar Training Program - Android & iOS Development",
+    title: "Mobile App Development (E-rozgar)",
+    description: "E-Rozgar Program, Punjab IT Board - Jan 30, 2021 – Apr 12, 2021",
   },
   {
     image: webMobileCert,
-    title: "Web and Mobile App Development Certificate",
-    description: "Saylani Mass IT Training - MERN Stack Development",
+    title: "Web and Mobile App Development (SMIT)",
+    description: "Saylani Mass IT Training (SMIT) - Dec 2019 – Dec 2020",
+  },
+  {
+    image: reactNativeCert,
+    title: "React Native (NAVTTC)",
+    description: "NAVTTC (Govt of Pakistan) - Feb 26, 2021 – Mar 26, 2021",
+  },
+  {
+    image: bootcampCert,
+    title: "Techloset Bootcamp Completion",
+    description: "TechloSet Solutions - Jan 03, 2019 - April 14, 2019",
   },
 ];
 

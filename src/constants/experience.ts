@@ -11,9 +11,10 @@ export const EXPERIENCES = BASE_EXPERIENCES.map((exp) => ({
   logo: COMPANY_LOGOS[exp.company] || null,
 }));
 
-// Re-export certifications
+// Enhanced certifications with issuer info
 export const CERTIFICATES = CERTIFICATIONS.map((cert) => ({
   title: cert.title,
+  issuer: cert.issuer,
   duration: cert.duration,
   description: cert.description,
 }));
