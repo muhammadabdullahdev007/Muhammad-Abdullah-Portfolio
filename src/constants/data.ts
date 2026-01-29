@@ -195,25 +195,39 @@ export interface Certification {
 
 export const CERTIFICATIONS: Certification[] = [
   {
-    title: "Web & Mobile Application Development",
+    title: "Mobile App Development",
+    issuer: "E-Rozgar Program, Punjab IT Board",
+    duration: " Jan 30, 2021 – Apr 12, 2021",
+    description:
+      "Android & iOS development with hands‑on UI design and backend integration.",
+  },
+  {
+    title: "Web and Mobile App Development",
     issuer: "Saylani Mass IT Training (SMIT)",
-    duration: "2023 – 2024",
+    duration: "Dec 2019 – Dec 2020",
     description:
       "Advanced MERN stack training with focus on scalable, production-ready applications.",
   },
   {
-    title: "Mobile App Development",
-    issuer: "Punjab IT Board (E-Rozgar)",
-    duration: "2024",
+    title: "React Native (NAVTTC)",
+    issuer: "NAVTTC (Govt of Pakistan)",
+    duration: "Feb 26, 2021 – Mar 26, 2021",
     description:
       "Hands-on Android and iOS development with real-world project delivery.",
   },
   {
     title: "IELTS Certification",
-    issuer: "British Council — Band 7.0",
+    issuer: "British Council — Band 7.0 (C1 Level)",
     duration: "2023",
     description:
-      "CEFR C1 level English proficiency demonstrating professional communication skills.",
+      "Scored 7.0 bands, corresponding to a CEFR Level of C1, showing proficiency in English language.",
+  },
+  {
+    title: "Techloset Bootcamp Completion",
+    issuer: "TechloSet Solutions",
+    duration: "Jan 03, 2019 - April 14, 2019",
+    description:
+      "Bootcamp completion certificate issued by CEO of Techloset Solutions, Naveed Sarwar.",
   },
 ];
 
