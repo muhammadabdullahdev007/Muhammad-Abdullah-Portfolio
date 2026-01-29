@@ -183,6 +183,30 @@ export const PROJECTS: Project[] = [
     demoLabel: "Live Demo",
     link: "hrmanagementbyabdullah.vercel.app",
   },
+  {
+    title: "CyberGen.ai – AI-Driven Data & Enterprise Analytics Platform",
+    titleShort: "CyberGen.ai",
+    duration: "Jun 2021 – Jun 2023",
+    image: "/cybergen-ai.png",
+    description:
+      "Enterprise AI-enabled platform focused on data analytics, intelligent reporting, and digital transformation. Developed scalable React dashboards, Node.js APIs, and AI-assisted workflows for analyzing complex datasets and delivering actionable insights to enterprise clients.",
+    github: null,
+    demo: "https://cybergen.ai",
+    demoLabel: "Live Demo",
+    link: "cybergen.ai",
+  },
+  {
+    title: "AI CV Analyzer – Intelligent Resume Screening & Ranking Platform",
+    titleShort: "AI CV Analyzer",
+    duration: "2023",
+    image: "/ai-cv-analyzer.png",
+    description:
+      "AI-powered resume analysis and screening platform designed to automate candidate evaluation and ranking. Built intelligent workflows for CV parsing, similarity scoring, and AI-assisted insights using structured data extraction, knowledge-base enrichment, and RAG-based reasoning to support faster, data-driven hiring decisions.",
+    github: null,
+    demo: "https://cybergen.ai",
+    demoLabel: "Live Demo",
+    link: "cybergen.ai",
+  },
 ];
 
 // ============ CERTIFICATIONS ============
